@@ -1,0 +1,304 @@
+* {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #fbf7ef
+}
+
+html {
+  background-color: #fbf7ef;
+  /* background-color: black; */
+}
+
+body {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #fbf7ef;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+main {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: -0.5em 0 0.5em #1c1a1b;
+  background-color: #1c1a1b;
+  border: 5px double #bdbcba;
+  border-radius: 25px;
+}
+
+header figure {
+  margin: 35px;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+header h1 a {
+  text-decoration: none;
+}
+
+main {
+  box-shadow: -0.5em 0 .4em #1c1a1b;
+  background-color: #1c1a1b;
+  border: 5px double #bdbcba;
+  border-radius: 25px;
+}
+
+main div h4, main div div h4 {
+  font-size: 17px;
+}
+
+main div div form button {
+  color: #1c1a1b;
+}
+
+footer {
+  background-color: none;
+  padding-top: 0px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+footer p, footer p a {
+  color: #1c1a1b;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+* table tr th {
+  border: none;
+  border-bottom: 3px solid #fbf7ef;
+  padding: 5px;
+  text-align: left;
+}
+
+* td {
+  padding: 5px;
+  padding-right: 22px;
+  border: none;
+}
+
+main section.grid ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 10px;
+}
+
+main section.grid ul li {
+  padding: 20px;
+  margin: 10px;
+  background-color: #1c1a1b;
+  border-radius: 25px;
+  padding-bottom: 5px;
+
+}
+
+main section.grid ul li > p, main section.grid ul li > section {
+  width: 300px;
+}
+
+main section.grid ul li a img {
+  border: 1px solid #fbf7ef;
+}
+
+.hidden {
+  display: none;
+}
+
+.left-figure {
+  margin-right: 0px;
+}
+
+.right-figure {
+  margin-left: 0px;
+}
+
+.price {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.hor-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.vert-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.group-label-input, .group_label_input, .group-label-input-add-tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.group-label-input input, .group_label_input input , .search-form input {
+  color: #1c1a1b;
+}
+
+.group-label-input > :first-child {
+  width: 119px;
+  text-align: right;
+}
+
+.group_label_input > :first-child {
+  width: 100px;
+  text-align: right;
+}
+
+.group-label-input-add-tag > :first-child {
+  width: 150px;
+  text-align: right;
+}
+
+.group-label-input-add-tag select {
+  color: #1c1a1b;
+}
+
+.search-aside {
+  /* border: 1px solid #fbf7ef; */
+  flex-grow: 1;
+}
+
+.search-aside h4 {
+  background-color: #fbf7ef;
+  color: #1c1a1b;
+  padding: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.table {
+  /* border: 1px solid #fbf7ef; */
+  flex-grow: 3;
+  margin-left: 20px;
+}
+
+.table h4 {
+  background-color: #fbf7ef;
+  color: #1c1a1b;
+  padding: 10px;
+  text-align: right;
+  margin: 0px;
+}
+
+.table h4 a {
+  color: #1c1a1b;
+
+}
+
+.submit {
+  color: #1c1a1b;
+  margin-left: 228px;
+}
+
+.add_tag_submit {
+  color: #1c1a1b;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 287px;
+}
+
+.align-right {
+  margin-left: 209px;
+}
+
+.align-right button {
+  color: #1c1a1b;
+}
+
+.login {
+  margin-top: 20px;
+}
+
+.margin-top {
+  margin-top: 35px;
+}
+
+.welcome {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.feedback-message {
+  color: #ff7575;
+}
+
+.grid {
+  background-color: #fbf7ef;
+  border-radius: 25px;
+}
+
+.grid .filter {
+  border: 1px solid blue;
+  margin-bottom: 0px;
+}
+
+.grid .filter h3 {
+  color:#1c1a1b;
+  margin: 20px;
+  padding: 0px;
+}
+.edit {
+  color: #1c1a1b;
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+}
+
+.spaced {
+  margin-left: 5px;
+  padding-right: 0px;
+  /* border: 1px solid blue; */
+}
+
+.delete {
+  text-decoration: none;
+  margin-left: 3px;
+  margin-right: 10px;
+  border: 1px solid #fbf7ef;
+  padding-bottom: 3px;
+  padding-top: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#logout {
+  padding: 0px;
+  margin-left: 1039px;
+  margin-top: 15px;
+  text-align: right;
+}
+
+#show_entire_collection_button {
+  color:#1c1a1b;
+  font-size: 18px;
+}
+
+#add_tag_reptile_name, #add_tag_name, #remove_tag_reptile_name, #remove_tag_name {
+  width: 200px;
+}
+
+#remove_reptile_name {
+  width: 173px;
+  color: #1c1a1b;
+}
